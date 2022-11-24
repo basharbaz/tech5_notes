@@ -9,6 +9,16 @@ GIT - version control software allows programmers to collaborate on a project
 GitHub-GitLab-BitBucket: hosting websites that allows us to store their repositories
 
 
+SSH
+ssh-keygen
+
+key-value
+private stays in your local machine
+public goes to your hosting websites
+
+
+
+
 
 Cloning - forking?
 How to avoid conflict?
@@ -24,8 +34,11 @@ Fetch - merge?
 
 
 How to break link between remote and local?
-How to completely get rid of GIt in the repo?
+-find the command
+-Go to Git/Manage Remotes -> delete the remote link
 
+How to completely get rid of GIT in the repo?
+-delete the .git folder from your local repo
 
 
 
