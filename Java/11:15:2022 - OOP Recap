@@ -1,0 +1,26 @@
+
+
+11/15/2022 - OOP Recap
+
+Object Oriented Programming:
+* Converting real life problems into programming objects and using them.
+
+Example: 
+*Creating a google home page
+	GoogleHomePage
+		1. Constructor -> creating the object of the class
+		2. Instance Variables(Fields, States, Attributes...) -> 
+		Defining the values of the object that we are creating
+			* Logo
+			* SearchBar
+			* SignInButton
+		3. Methods (Functions,...)-> What does this object do?
+			* Signing in
+			* Searching 
+			* Going to settings
+		4. Code blocks(static/non-static/local) -> Perform an action before anyting else
+
+
+
+
+

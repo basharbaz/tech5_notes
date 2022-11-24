@@ -1,0 +1,45 @@
+
+
+08/31/2022 - SDLC (Software Development Life Cycle)
+
+- how to study
+- Soft Skills and why we need it
+
+- SDLC (Software Development Life Cycle)
+	Planning- There is business idea from the client and PO (Product Owner) from the tech company is gathering the requirements.
+
+	Requirement Analysis - Team, PO, Developer manager, QA manager, SME(Subject Matter Expert), DevOps, System Architect
+
+	Feasibility analysis- 
+
+	Design- UI Design layout
+			Design documents
+			Programming languages for UI and backend
+			Frameworks selection
+			System server design
+
+
+	Development - Writing the application code
+				- Ongoing design updates
+				- Test Engineer is understanding the requirements and start writing the test cases
+
+				Test Case for login functionality:
+				
+				Given user is on the Login page
+				And user puts the credentials
+				When user clicks on the Login button
+				Then system navigates to the Dashboard (Home page) page
+
+
+
+
+
+
+
+
+
+
+
+
+
+

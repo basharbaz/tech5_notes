@@ -1,0 +1,7 @@
+11/21/2022 - Soft Skills - SAFe part 2 recap
+
+Capacity is an estimated value that potentially can be delivered that is determined during PI planning. It is based on Velocity and modified for the realities of anticipated holidays, staffing absences or changes. If our velocity was 40, but the US Thanksgiving holiday falls in the next sprint, we might use a capacity of 25 while our velocity remains unchanged at 40. The velocity, itself, is unchanged since it is the calculated average of past performance.
+
+See the Establish Velocity section on https://www.scaledagileframework.com/iteration-planning/ for a description of Capacity.
+
+Load is the team’s committed value of the number of points the team intends to deliver in a sprint or PI. It is based on team capacity and the stories available in the backlog. In our example, the team may decide a load of 20 is more appropriate considering the availability of the team for the sprint including the holiday.

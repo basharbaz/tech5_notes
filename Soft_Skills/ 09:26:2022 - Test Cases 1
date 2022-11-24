@@ -1,0 +1,73 @@
+
+
+09/26/2022 - Test Cases 1
+
+SDLC
+
+AGILE AND WATERFALL
+
+SCRUM - 
+
+User Story - As a user, I should be able to login
+
+Components of the user story
+
+	1. Summary, title - As a user, I should be able to login
+
+	2. Acceptance Criteria - 
+	    Users should be able to log in with the valid credentials
+
+		Users should get the error message with the incorrect username.
+
+		The user should get the error message with the incorrect password.
+
+		Users should navigate to the dashboard page when login successful
+
+		User can longin only after the captcha validation
+
+		Two factor authentications
+
+		Forget password options
+
+		Remember new device functionality
+
+User story has summary and acceptance criteria ( requirement, scenarios) to be able be accepted by the client and users. 
+
+
+Syntax of:
+-----------
+User Story: As a user, I should be able to login
+
+Acceptance Criteria: Users should be able to log in with the valid credentials
+
+Test Scenario: User should be able to log in with the valid credentials (Validate that user is able to login with valid credentials)
+
+Test Case: Validate that user is able to login with valid credentials
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

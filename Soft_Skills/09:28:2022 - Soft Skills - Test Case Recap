@@ -1,0 +1,20 @@
+09/28/2022 - Soft Skills - Test Case Recap
+
+Went through excel with the second test case.
+Validate that user is able to login
+
+http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx
+
+We are checking how to break the application with positive, negative, boundary analysis, and edge cases with:
+
+-Numeric value
+-Empty
+-Capital username with correct password
+-Correct username with incorrect password
+-incorrect username with correct password
+-Special characters
+
+Result:
+-Better Security
+-Enhanced product quality
+-Saves costs before production

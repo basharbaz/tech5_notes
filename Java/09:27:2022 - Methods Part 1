@@ -1,0 +1,32 @@
+
+
+
+09/27/2022 - Methods Part 1
+
+Method:
+-it is a block of code that executes a specific task
+-it has a purpose
+EX: Math.min(a, b), Math.max(a, b)
+random(), nextInt(), print(), println()
+
+{} -> known as a block
+
+MAIN GOAL OF CREATING CUSTOM METHODS: REUSABILITY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

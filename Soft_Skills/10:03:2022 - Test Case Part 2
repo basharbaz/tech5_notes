@@ -1,0 +1,66 @@
+
+
+10/04/2022 - Methods/ String Methods
+
+Methods Recap:
+
+-Manipulating the data
+-A block of code to execute
+-Code re-usability
+-Methods = Functions
+
+How to create a methods;
+	* Access modifier (public, private)
+	* static you call the method with CLASS NAME 
+		- Math
+	* not-static you call the method with OBJECT NAME
+		- Scanner, String length()
+	* void -> println(), main(), print()
+	* return (int, String, long, boolean...) -> length(), substring(int index, int index)
+	substring(int index)
+	* methodName -> camelCase, meaningful, start-lowercase
+	* arguments, parameters -> the data we need to create the code block
+	* code block DON'T FORGET THE CURLY BRACES
+
+How to overload a method;
+	* Changing number or data type of the arguments
+	* Keeping the same method name
+
+String Methods Recap:
+	* String.valueOf() -> converts primitives to String
+	* concat() -> adds two strings together 
+		- str1.concat(str2) => str1 + str2
+	* equals() -> for checking if two strings are equal
+	* equalsIgnoreCase() -> for checking if two strings are equal but NOT CASE SENSITIVE
+	- techglobal == TecHgLobal
+	* toUpperCase(), toLowerCase() -> it converts the string to uppercase or lowercase
+	* indexOf() -> it returns the position of the given char or String.
+		- String name = John;
+		- int index = name.indexOf('o') -> 1
+		- int index2 = name.indexOf("oh") -> 1
+	* lastIndexOf() -> it returns the last index of the given char or String.
+		- String fruit = Banana;
+		- int index = fruit.lastIndexOf('a'); -> 5
+		- int index2 = fruit.indexOf('a'); -> 1
+	* length() -> it returns the length of the String
+	* trim() -> removes the extra spaces from a String and returns it.
+		- String sentence = "__I__love_Java_____"
+		- String trimmedSentence = sentence.trim(); -> "I__love_Java"
+	* substring() -> it crops the original string, between the given values or everything after value if it is a single index. NOTE: First value is included and second value is not!!!
+		- String school = "TechGlobal";
+		- String firstPart = school.substring(0, 4); -> 
+		0,1,2,3 =  Tech
+		- String secondPart = school.substring(4) -> Global
+	ANOTHER NOTE: For not getting the IndexOutOfBoundary exception double check your indexes
+
+	Example: Check if it is starting with "Tech"
+		- String school = "TechGlobal";
+		- String firstPart = school.substring(0, 4);
+sout(firstPart.equals("Tech")) -> can give exception
+sout(school.startsWith("Tech")) -> not gonna give exception
+	
+	* startsWith(), endsWith() -> it returns true if it is starting or ending with expected.
+
+	* contains() -> it returns true if it is containing
+	* isEmpty() -> it return true if it is empty
+	* replace() -> it replaces the value we are giving in String.

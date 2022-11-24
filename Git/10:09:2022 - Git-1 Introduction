@@ -1,0 +1,13 @@
+
+
+10/09/2022 - Git-1 Introduction
+
+Git - it is a tool to track our changes on local and remote
+
+GitLab - It is a remote sever to host our framework. 
+
+With the help of the Git, we can push and pull the code and track the changes
+
+
+NOTE: Do not put any pass-code when you create ssh key on the terminal(Mac) or command prompt (Windows)
+

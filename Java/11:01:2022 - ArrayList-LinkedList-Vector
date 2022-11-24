@@ -1,0 +1,64 @@
+
+
+
+11/01/2022 - ArrayList-LinkedList-Vector
+
+
+RECAP:
+Collections - Data structures
+
+Array:
+-Fixed-sized: once the size declared, it cannot be changed. You cannot remove/add elements
+-Does not provide methods to manipulate data
+-Works with primitives/objects 
+
+
+
+ArrayList:
+-Dynamic sized. Adding or removing elements is allowed
+-Provides index and methods to work around the data.
+-Works only with objects
+
+-Stores elements with their indexes
+-Adding or removing is slower
+-It allocates less memory
+
+
+LinkedList:
+-Stores elements as nodes (previous-itself-next)
+-Adding or removing is faster
+-It allocates more memory
+
+NOTE: LinkedList implements Queue and Deque as well and provides more methods compared to ArrayList
+	getFirst(), getLast(), peek(), poll(), push(), pop()
+
+
+Vector:
+-Thread-safe compared to ArrayList
+
+
+ITERATE = TRAVERSE
+
+REMOVING ELEMENTS FROM COLLECTIONS
+NOTE: if you will use for each loop to remove elements, you will get ConcurrentModificationException
+
+
+ITERATOR
+-An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet
+-We can use iterator to loop through all collections that extends to Iterable interface
+
+-Iterator provides 3 useful methods to use
+	1. hasNext() -> returns true if there are more elements in the collection or false otherwise
+	2. next() -> gets next element from the collection
+	3. remove() -> removes the element from collection that is currently retrieved
+
+NOTE: Trying to remove items using a for loop or a for-each loop would not work correctly because the collection is changing size while the code is trying to loop
+
+
+
+
+
+
+
+
+

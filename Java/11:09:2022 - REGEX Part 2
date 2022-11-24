@@ -1,0 +1,59 @@
+
+
+
+11/09/2022 - REGEX Part 2
+
+2 classes - Pattern and Matcher classes
+
+Pattern - 
+1. compile regex pattern
+2. pattern() method to convert our pattern into a string(toString)
+3. matches() - checks if a given string matches our regex pattern
+4. split() - split the string to an array by a given regex pattern
+
+Matcher - 
+1. find() - searches the string to a match of a given regex pattern
+2. group() print out the matched seq of characters
+3.start()/end() - privide the beginning and ending indexes of the matched word
+4. matches() - checks if the gien string matches with the given regex pattern
+
+
+
+Single character - a regex pattern that searches for a single character: 
+1.[a-z] - searches for a single character from a-z
+2. [^a-z] - searches for a single charater that is not from the range of a to z
+3.[A-Za-z&&[^A-C]] - searches for a single letter(Uppercase or lowercase) that does not include A, B, C
+
+Regex Quantifiers - allows us to give a search batter for a range of characters
+1. ? - searches if a given search pattern is one time
+2. + - searches if a given search pattern is one or more times
+3. * - searches of a given search pattern is zero or more times
+4. {n} - search if a given search pattern is n amount of times
+5. {n,} - searches if a given search pattern is n or more times
+6. {n,n}- searches if a given search pattern is a range from n to n times
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

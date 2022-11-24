@@ -1,0 +1,137 @@
+
+
+
+09/04/2022 - Print statements & Data Types
+
+
+RECAP:
+
+Computer:
+Input -> Process -> Output
+
+
+Programming Language:
+High-level languages -> Java, JS, C#, PHP
+
+
+Source code vs byte code vs binary code
+byte code is ONLY used with JAVA
+
+source code -> javac -> byte code -> java -> binary
+
+compiler -> syntax errors
+runtime errors -> StringIndexOutOfBoundException
+
+String name = "John";
+0. J
+1. o
+3. n
+
+System.out.println(name.charAt(2));
+
+
+java vs javac
+javac -> compiles the source code
+java -> executes the compiled code
+
+
+
+JAVA COMPONENTS:
+JDK = JRE + development tools
+JRE = JVM + libraries
+JVM also has JIT (Just in Time Compiler)
+
+main() method
+-main() method is the start point of the execution of a program
+-JVM looks to the main() method first. Then, start executing code from top to bottom and left to right
+
+
+public static void main(String[] args){
+	//this is main method
+	//The code written here will be executed
+}
+
+
+{} -> block of code
+
+println()
+
+
+
+
+NAMING CONVENTION - GOOD CODE
+All the class names, package names, variables names MUST be meaningful which makes our code more readable
+
+
+HOW WE CAN MAKE OUR CODE MORE READABLE?
+Use comments
+
+
+
+print() vs println() methods
+-Both of methods belongs to the System class of Java
+-They are called-invoked with the System class
+
+System.out.println(text);
+System.out.print(text);
+
+ln = line
+
+
+
+HOW TO DEBUG
+1. put a breakpoint (red dot) next to line you want to pause the code
+2. Run your code with "Debug" option
+3. Use "Step Over" or F8 to execute code line by line
+4. DO NOT FORGET TO REMOVE YOUR BREAKPOINT AFTER DEBUGGING
+
+
+
+ESCAPE SEQUENCES
+""
+\
+\t 	-> it provides a tab space (8 characters) 
+\n 	-> it provides a new line
+
+
+
+Concatenation
+-It is combining 2 or more strings
+-We use + (plus) operator to concatenate multiple strings
+-String is a sequence of characters
+-EXAMPLES: "Hello", "@#%@#", "", " ", "    ", "23423"
+
+System.out.println("Hello World"); // Hello World
+System.out.println("Hello" + " " + "World") // Hello World
+
+
+""apple"" -> compiler error
+"\"apple\""
+
+NOTE:
+System.out.println(); //This is going to add one empty line to the console
+
+
+3, 5, 10000000
+56.5
+1875223.23
+
+A char
+X
+%
+
+true/false -> boolean
+
+
+
+All the identifiers must be named meaningfully
+package: starts with lowercase, follows camelcase, no spaces
+class name: starts with uppercase, follows camelcase, no spaces
+variable name: starts with lowercase, follows camelcase, no spaces
+myNumber, studentAge, studentPhoneNumber, age, balance
+
+
+
+
+
+

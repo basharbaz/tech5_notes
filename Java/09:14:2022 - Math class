@@ -1,0 +1,76 @@
+
+
+Recap:
+
+Java Operators
+
+1.Arithmetic Operators
++, -, /, *, %
+
+8 % 3 = 2
+
+2.Shortghand assignments
+
+int age = 20;
+age = age + 2;
+shorthand -> age += 2;
+
+3.Pre/Post Increment, Decrement
+
+int age = 20;
+
+age++ -> post increment
+++age -> pre increment
+
+age-- -> post decrement
+--age -> pre decrement
+
+4. Relational Operators
+
+int age1 = 20, age2 = 30;
+
+age1 < age2 -> true
+age1 > age2 -> false
+
+age1 == age2 -> false
+age1 != age2 -> true
+
+
+5. Logical Operators
+
+&&, & -> and operator
+
+true & false & true & true  -> false
+
+true && false && true && true	-> false
+
+
+true || true -> true
+false || false -> false
+true || false -> true
+
+
+09/14/2022 - Math class
+
+Math class doesn't need an object for using their methods. Simply call the class name and the methods after it.
+
+max(5, 6) -> finding the max of two numbers
+min(5, 6) -> finding the min of two numbers
+
+
+sqrt(36) -> 6
+sqrt(49) -> 
+
+6 * 6 = 36
+7 * 7 = 49
+
+
+5 - 7 = -2
+abs(5 - 7) = 2
+abs(7 - 5) = 2
+
+
+random() -> double 
+
+0.0 --- 0.9999999999999...
+
